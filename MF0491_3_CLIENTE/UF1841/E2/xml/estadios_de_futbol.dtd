@@ -1,0 +1,7 @@
+<!ELEMENT estadios_de_futbol (estadio+)>
+<!ELEMENT estadio (nombre, equipo, capacidad, direccion, fundacion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>
+<!ELEMENT capacidad (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT fundacion (#PCDATA)>

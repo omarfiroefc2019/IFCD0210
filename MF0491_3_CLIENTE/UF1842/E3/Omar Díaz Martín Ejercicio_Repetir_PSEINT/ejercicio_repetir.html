@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>EJERCICIOREPETIR</TITLE>
+	</HEAD>
+	<BODY onload="ejerciciorepetir();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20150822-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function ejerciciorepetir() {
+				var acum, num, respuesta;
+				num = 0;
+				acum = 0;
+				do {
+					document.write("Inserte el número",'<BR/>');
+					num = Number(prompt());
+					// proceso
+					acum = acum+num;
+					document.write("¿Desea continuar? si/no ",'<BR/>');
+					respuesta = prompt();
+				} while (respuesta!="no");
+				document.write("La suma de los números ingresados es: ",acum,'<BR/>');
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>

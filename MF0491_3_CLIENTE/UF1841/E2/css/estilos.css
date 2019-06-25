@@ -1,0 +1,274 @@
+* {
+
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-decoration: none;
+	margin: 0;
+	box-sizing: border-box;
+	/*font-size: 18px;*/
+}
+
+
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+	box-sizing: border-box;
+    padding: 20px;
+
+
+}
+
+
+header {
+    background-image: url("../imagenes/barramenu.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 4px solid black;	
+    width:100%;
+    height:70px;
+    padding-right:30px;
+	padding-left:30px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  	box-shadow: 15px 15px 20px;
+
+}
+
+header nav {     
+    margin:12px;	
+    display: flex;
+        
+}
+
+header nav a{   
+    color:white;
+    text-align:center;
+    padding:8px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+header nav a:hover{
+    background-color: #4DBD33;
+	border-radius: 8px;
+    
+ } 
+
+
+header .logo{
+
+margin: 12px;
+margin-bottom: 90px;
+
+
+}
+
+
+.banner{
+	background-image: url("../imagenes/banner1.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 250px;
+	border: 4px solid black;
+	width:100%;
+	margin-bottom:20px;
+	box-shadow: 15px 15px 20px;
+}
+
+
+
+body{	
+	text-align: center;
+	background-image: url("../imagenes/background.jpg");
+
+}
+
+
+h2{
+	font-size:22px;
+}
+
+.tabla{
+	margin: 0 auto;
+	width:100%;
+	border: solid 4px black;
+	box-shadow: 15px 15px 20px;
+}
+
+table.tabla td:nth-child(1) img {
+  width: 140px;
+  height: 140px;
+  margin: 3px;
+}
+
+table.tabla td:nth-child(1), table.tabla td:nth-child(3) {
+    text-align: center;
+}
+
+table.tabla td:nth-child(3) img {
+  width: 80%;
+  height: 180px;
+  margin: 3px;
+  border: solid 3px black;
+  box-shadow: 10px 15px 15px; 
+  border-radius: 20px;
+
+}
+
+table.tabla td:nth-child(3) img:hover {
+ 
+	transition: all 1.7s ease;
+	transform:scale(1.6);
+	border: solid 3px #4DBD33;
+
+}
+
+
+table.tabla img:hover {
+  filter: brightness(80%);
+
+}
+
+table.tabla td:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+table.tabla td:nth-child(4) {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+table.tabla td:nth-child(5) {
+  font-size: 14px;
+  font-weight: 600;
+ font-family: 'PT Sans Narrow', sans-serif;
+}
+
+table.tabla td:nth-child(6) {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+table.tabla td a:nth-child(4) {
+  color: #ec1c2d;
+}
+
+table.tabla td a {
+  font-weight: 500;
+}
+
+table.tabla td a:first-child {
+  color: #15315a;
+  font-weight:700;
+}
+
+table.tabla thead tr td{
+  background: #3E3D3D;
+  color: white;
+
+}
+table.tabla thead tr td h3{
+  background: #3E3D3D;
+  color: white
+}
+
+table.tabla tr:nth-child(even) {
+  background: #D6D6D6/*#f1f1f1;*/
+}
+
+table.tabla tr:nth-child(odd) {
+  background: white;
+
+}
+
+
+col.estadio {
+  width: 18%;
+
+}
+
+col.equipo {
+  width: 18%;
+}
+
+
+col.imagen2 {
+  width: 35%;
+
+}
+
+col.capacidad{
+  width: 15%;
+}
+col.direccion{
+  width: 40%;
+}
+
+
+col.fundacion{
+  width: 15%;
+}
+
+
+
+h4 .pie {
+	padding: 0 ;
+	text-align: center;
+	color:white;
+	
+
+}
+
+footer {
+    margin-top: 30px;
+    background-image: url("../imagenes/bgfooter.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 4px solid black;	
+    width:100%;
+    height:150px;
+    padding-right:30px;
+	padding-left:30px;
+    display: flex;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  	box-shadow: 10px 15px 15px;
+	
+
+}
+footer .pie h4{
+	color: white;
+	text-align: center;
+	
+}
+
+footer nav {
+    text-align: center;
+    margin:12px;	
+    display: flex;
+    
+    
+}
+
+footer nav img{
+    padding:8px;
+   	height: 80px;
+   	width: 80px;
+
+}
+
+footer nav img:hover{
+      
+   	filter: brightness(120%);
+
+}
+
+
