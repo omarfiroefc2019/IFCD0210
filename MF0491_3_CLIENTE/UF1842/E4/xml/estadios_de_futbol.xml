@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--DTD-->
+<!--<!DOCTYPE estadios_de_futbol SYSTEM "estadios_de_futbol.dtd">-->
+<estadios_de_futbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="estadios_de_futbol.xsd">
+	
+	
+	<estadio>
+		<nombre>Mendizorroza</nombre>
+		<equipo>Deportivo Alavés</equipo>
+		<capacidad>19840 espectadores</capacidad>
+		<direccion>Cervantes Ibilbidea, s/n, 01007 Vitoria-Gasteiz, Araba</direccion>
+    <fundacion>1924</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>San Mamés</nombre>
+		<equipo>Athletic Bilbao</equipo>
+		<capacidad>53.289 espectadores</capacidad>
+		<direccion>C/ Rafael Moreno Pitxitxi, s/n, 48013, Bilbao, Vizcaya</direccion>
+    <fundacion>2013</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Wanda Metropolitano</nombre>
+		<equipo>Atlético de Madrid</equipo>
+		<capacidad>67.829 espectadores</capacidad>
+		<direccion>Av. de Luis Aragonés, 4. 28022, Madrid</direccion>
+    <fundacion>2017</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Camp Nou</nombre>
+		<equipo>F.C. Barcelona</equipo>
+		<capacidad>99.354 espectadores</capacidad>
+		<direccion>Av. de Heliópolis, s/n, 41012 Sevilla</direccion>
+    <fundacion>1929</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Benito Villamarín</nombre>
+		<equipo>Real Betis Balompié</equipo>
+		<capacidad>60.720 espectadores</capacidad>
+		<direccion>C/ Aristides Maillol, 12, 08028, Barcelona</direccion>
+    <fundacion>1957</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Balaídos</nombre>
+		<equipo>RC Celta</equipo>
+		<capacidad>29.000 espectadores</capacidad>
+		<direccion>Av. de Balaídos, 13, 36210 Vigo, Pontevedra</direccion>
+    <fundacion>1928</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Estadio Municipal de Ipurua</nombre>
+		<equipo>SD Eibar</equipo>
+		<capacidad>8.164 espectadores</capacidad>
+		<direccion>Ipurua Kalea, 2, 20600 Eibar, Gipuzkoa</direccion>
+    <fundacion>1947</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>RCDE Stadium</nombre>
+		<equipo>RCD Espanyol</equipo>
+		<capacidad>40.500 espectadores</capacidad>
+		<direccion>Av. del Baix Llobregat, 100, 08940 Cornellà de Llobregat, Barcelona</direccion>
+    <fundacion>2009</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Coliseum Alfonso Pérez</nombre>
+		<equipo>Getafe CF</equipo>
+		<capacidad>17.393 espectadores</capacidad>
+		<direccion>Av. Teresa de Calcuta, 12, 28903 Getafe, Madrid</direccion>
+    <fundacion>1998</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Estadio Montilivi</nombre>
+		<equipo>Girona FC</equipo>
+		<capacidad>11.286 espectadores</capacidad>
+		<direccion>Av. Montilivi, 141. Girona</direccion>
+    <fundacion>1970</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>El Alcoraz</nombre>
+		<equipo>SD Huesca</equipo>
+		<capacidad>7.638 espectadores</capacidad>
+		<direccion>Camino de Cocorón, s/n, 22004 Huesca</direccion>
+    <fundacion>1972</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Estadio Municipal de Butarque</nombre>
+		<equipo>CD Leganés</equipo>
+		<capacidad>12.450 espectadores</capacidad>
+		<direccion>C/ Arquitectura, s/n, 28918 Leganés, Madrid</direccion>
+    <fundacion>1998</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Estadio Ciudad de Valencia</nombre>
+		<equipo>Levante UD</equipo>
+		<capacidad>26.354 espectadores</capacidad>
+		<direccion>C/ Sant Vicent de Paül, 44, 46019 Valencia</direccion>
+    <fundacion>1969</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Estadio de Vallecas</nombre>
+		<equipo>Rayo Vallecano</equipo>
+		<capacidad>14.790 espectadores</capacidad>
+		<direccion>C/ Payaso Fofó, 0, 28018 Madrid</direccion>
+    <fundacion>1976</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Santiago Bernabeu</nombre>
+		<equipo>Real Madrid CF</equipo>
+		<capacidad>81.044 espectadores</capacidad>
+		<direccion>Av. de Concha Espina, 1, 28036 Madrid</direccion>
+    <fundacion>1947</fundacion>
+	</estadio>
+	
+		<estadio>
+		<nombre>Anoeta</nombre>
+		<equipo>Real Sociedad</equipo>
+		<capacidad>28.995 espectadores</capacidad>
+		<direccion>Anoeta Pasalekua, 1, 20014 Donostia, Gipuzkoa</direccion>
+    <fundacion>1993</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Ramón Sánchez Pizjuán</nombre>
+		<equipo>Sevilla FC</equipo>
+		<capacidad>43.000 espectadores</capacidad>
+		<direccion>C/ Sevilla Fútbol Club, s/n, 41005 Sevilla</direccion>
+    <fundacion>1947</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Mestalla</nombre>
+		<equipo>Valencia CF</equipo>
+		<capacidad>55.000 espectadores</capacidad>
+		<direccion>Av. de Suecia, s/n 46010 Valencia</direccion>
+    <fundacion>1916</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Estadio José Zorrilla</nombre>
+		<equipo>Valladolid</equipo>
+		<capacidad>26.512 espectadores</capacidad>
+		<direccion>Av. Mundial 82, s/n, 47014 Valladolid</direccion>
+    <fundacion>1982</fundacion>
+	</estadio>
+	
+	<estadio>
+		<nombre>Estadio de la Cerámica</nombre>
+		<equipo>Villarreal CF</equipo>
+		<capacidad>23.500 espectadores</capacidad>
+		<direccion>C/ Blasco Ibáñez, 2, 12540 Vila-real, Castellón</direccion>
+    <fundacion>1923</fundacion>
+	</estadio>
+	
+	
+	
+	
+  
+</estadios_de_futbol>
