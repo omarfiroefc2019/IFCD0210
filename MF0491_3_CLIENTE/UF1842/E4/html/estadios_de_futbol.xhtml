@@ -47,34 +47,34 @@
 
 
 
-  <script src="../js/reproductor.js"></script>
+  <script src="../js/webamp.bundle.js"></script>
     <script>
         const Webamp = window.Webamp;
         new Webamp({
            availableSkins:[
-            {url: "../reproductor/skins/Green-Dimension-V2.wsz", name:"Green Dimension V2" },
-            {url: "../reproductor/skins/AmigaPPC-dark.wsz", name:"AmigaPPC dark" },
-            {url: "../reproductor/skins/base-2.91.wsz", name:"base 2.91" },
-            {url: "../reproductor/skins/base-2.91-png.wsz", name:"base 2.91 png" },
-            {url: "../reproductor/skins/Internet-Archive.wsz", name:"Internet Archive" },
-            {url: "../reproductor/skins/MacOSXAqua1-5.wsz", name:"MacOSXAqua1-5" },
-            {url: "../reproductor/skins/Skinner_Atlas.wsz", name:"Skinner Atlas" },
-            {url: "../reproductor/skins/Sonic_Attitude.wsz", name:"Sonic Attitude" },
-            {url: "../reproductor/skins/TopazAmp1-2.wsz", name:"TopazAmp 1.2" },
-            {url: "../reproductor/skins/Vizor1-01.wsz", name:"Vizor 1.01" },
-            {url: "../reproductor/skins/XMMS-Turquoise.wsz", name:"XMMS Turquoise" },
-            {url: "../reproductor/skins/ZaxonRemake1-0.wsz", name:"ZaxonRemake 1.0" },
+            {url: "./skins/Green-Dimension-V2.wsz", name:"Green Dimension V2" },
+            {url: "./skins/AmigaPPC-dark.wsz", name:"AmigaPPC dark" },
+            {url: "./skins/base-2.91.wsz", name:"base 2.91" },
+            {url: "./skins/base-2.91-png.wsz", name:"base 2.91 png" },
+            {url: "./skins/Internet-Archive.wsz", name:"Internet Archive" },
+            {url: "./skins/MacOSXAqua1-5.wsz", name:"MacOSXAqua1-5" },
+            {url: "./skins/Skinner_Atlas.wsz", name:"Skinner Atlas" },
+            {url: "./skins/Sonic_Attitude.wsz", name:"Sonic Attitude" },
+            {url: "./skins/TopazAmp1-2.wsz", name:"TopazAmp 1.2" },
+            {url: "./skins/Vizor1-01.wsz", name:"Vizor 1.01" },
+            {url: "./skins/XMMS-Turquoise.wsz", name:"XMMS Turquoise" },
+            {url: "./skins/ZaxonRemake1-0.wsz", name:"ZaxonRemake 1.0" },
             ],
 
            initialTracks:[
-           {url: "../reproductor/musica/atletico.mp3"},
-           {url: "../reproductor/musica/barcelona.mp3"},
-           {url: "../reproductor/musica/sevilla.mp3"}
+           {url: "./musica/atletico.mp3"},
+           {url: "./musica/barcelona.mp3"},
+           {url: "./musica/sevilla.mp3"}
           
            ],
 
             initialSkin: 
-            {url: "../reproductor/skins/TopazAmp1-2.wsz"}
+            {url: "./skins/TopazAmp1-2.wsz"}
              
           
         }).renderWhenReady(document.getElementById('reproductor'));
