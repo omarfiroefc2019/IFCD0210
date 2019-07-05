@@ -7,6 +7,12 @@
 	/*font-size: 18px;*/
 }
 
+body{ 
+  text-align: center;
+  background-image: url("../imagenes/background.jpg");
+
+}
+
 
 .contenedor{
 	width: 80%;
@@ -18,6 +24,38 @@
 }
 
 
+.botonarriba{
+  display: inline-block;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+  margin-top: 10px;
+}
+
+.botonarriba a p{
+  background-color: #A2A0A0;
+  border: solid 4px black;
+  padding: 5px;
+  width: 140px;
+  height: 50px;
+  border-radius: 20px;
+  padding-top: 12px;
+  color: black;
+}
+
+
+.botonarriba:hover{
+  transition: all 1.2s ease;
+  filter: brightness(70%);
+  
+
+}
+
+
+/* -------- HEADER --------*/ 
+
 header {
     background-image: url("../imagenes/barramenu.png");
     background-repeat: no-repeat;
@@ -26,7 +64,7 @@ header {
     width:100%;
     height:70px;
     padding-right:30px;
-	padding-left:30px;
+	   padding-left:30px;
     margin-bottom:20px;
     display: flex;
     justify-content: space-between;
@@ -51,7 +89,7 @@ header nav a{
 }
 
 header nav a:hover{
-    background-color: #4DBD33;
+  background-color: #4DBD33;
 	border-radius: 8px;
     
  } 
@@ -59,15 +97,15 @@ header nav a:hover{
 
 header .logo{
 
-margin: 12px;
-margin-bottom: 90px;
+  margin: 12px;
+  margin-bottom: 90px;
 
 
 }
 
 
 .banner{
-	background-image: url("../imagenes/banner1.png");
+	background-image: url("../imagenes/banner1.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 250px;
@@ -79,16 +117,63 @@ margin-bottom: 90px;
 
 
 
-body{	
-	text-align: center;
-	background-image: url("../imagenes/background.jpg");
-
-}
-
-
 h2{
 	font-size:22px;
+
 }
+
+/* -------- FOOTER --------*/ 
+
+footer {
+    margin-top: 30px;
+    background-image: url("../imagenes/bgfooter.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 4px solid black;  
+    width:100%;
+    height:150px;
+    padding-right:30px;
+    padding-left:30px;
+    display: flex;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 15px 15px;
+  
+
+}
+footer .pie h4{
+  color: white;
+  text-align: center;
+  
+}
+
+footer nav {
+    text-align: center;
+    margin:12px;  
+    display: flex;
+    
+    
+}
+
+footer nav img{
+    padding:8px;
+    height: 80px;
+    width: 80px;
+
+}
+
+footer nav img:hover{
+      
+    filter: brightness(120%);
+
+}
+
+
+
+/* --------PAG. ESTADIOS --------- */
+
 
 .tabla{
 	margin: 0 auto;
@@ -225,50 +310,227 @@ h4 .pie {
 
 }
 
-footer {
-    margin-top: 30px;
-    background-image: url("../imagenes/bgfooter.png"); 
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border: 4px solid black;	
-    width:100%;
-    height:150px;
-    padding-right:30px;
-	padding-left:30px;
-    display: flex;
-    margin-bottom:20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  	box-shadow: 10px 15px 15px;
-	
 
-}
-footer .pie h4{
-	color: white;
-	text-align: center;
-	
+
+
+
+/* ---------PAG. INICIO ----------*/
+
+
+.bienvenido{
+  background-image: url("../imagenes/soccerfield.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 650px;
+  border: 4px solid black;
+  width:80%;
+  margin-bottom:20px;
+  box-shadow: 15px 15px 20px;
+  margin: 0 auto;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
-footer nav {
-    text-align: center;
-    margin:12px;	
-    display: flex;
-    
-    
+.bienvenido p{
+
+  text-align: center;
+  vertical-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+  -webkit-text-stroke: .5px white;
+  color: black;
 }
 
-footer nav img{
-    padding:8px;
-   	height: 80px;
-   	width: 80px;
+.bienvenido h1{
+font-size: 80px;
+padding-top:110px;
+font-weight: bold;
+
+-webkit-text-stroke: 1px white;
+  color: black;
+}
+
+/* -------- PAG. CONTACTO --------*/ 
+
+
+#contact {
+  background: #4DBD33;
+  padding: 25px;
+  margin: 60px 0;
+  box-shadow: 15px 15px 20px;
+  border: solid 4px black;
+  padding-bottom: 20px;
+  border-radius: 20px;
+
 
 }
 
-footer nav img:hover{
-      
-   	filter: brightness(120%);
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+  padding: 5px;
 
 }
 
 
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 12px;
+  
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+  transition: border-color 0.3s ease;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 200px;
+  max-width: 100%;
+  resize: none;
+
+
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 30%;
+  background-color: #000000;
+  border: none;
+  color: white;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  
+}
+
+#contact button[type="submit"]:hover {
+  
+  transition: background-color 0.3s ease;
+   background-color: #464242;
+}
+
+
+
+.contenedorformulario {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+
+
+}
+
+.fondo_form{
+  
+  background-color: white;
+  box-shadow: 15px 15px 20px;
+  border: solid 4px black;
+  background-image: url("../imagenes/bgform.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+
+}
+
+
+/* -------- PAG. MULTIMEDIA --------- */
+
+#reproductor{
+
+  padding-bottom: 24.3%;
+  margin-right: 78% ;
+
+}
+
+.contenedor_multimedia{
+  box-shadow: 15px 15px 20px;
+  border: solid 4px black;
+  height: 700px;
+  background-image: url("../imagenes/bggaleria.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: black;
+  padding: 40px;
+  padding-bottom: 30px;
+
+}
+
+
+
+  .videoteca {
+
+color: white;
+padding: 10px;
+padding-bottom: 30px;
+
+  }
+
+
+.videoteca h2{
+  /*padding-bottom: 40px;*/
+  font-size: 30px;
+}
+
+.videoteca iframe{
+border: solid 2px #CEC5C5;
+color: white;
+margin: 10px;
+
+
+}
+
+  
+
+.videoteca iframe p{
+
+  color: white;
+}
+
+.podcast{
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 100%;
+  
+  padding-top: 20px;
+  box-shadow: 15px 15px 20px;
+  border: solid 4px black;
+}
+
+.podcast p {
+  
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+
+
+.podcast iframe{
+  box-shadow: 15px 15px 20px;
+  margin-bottom: 30px;
+}

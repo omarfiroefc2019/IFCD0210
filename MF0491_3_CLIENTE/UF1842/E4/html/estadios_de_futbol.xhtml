@@ -24,11 +24,10 @@
               </div>
 
               <nav>
-                  <a href="#">INICIO</a>
-                  <a href="#">ESTADIOS</a> 
-                  <a href="#">GALERIA</a>
-                  <a href="#">VIDEOS</a>
-                  <a href="#">CONTACTO</a>
+                  <a href="index.html">INICIO</a>
+                  <a href="estadios_de_futbol.xhtml">ESTADIOS</a> 
+                  <a href="multimedia.html">MULTIMEDIA</a>
+                  <a href="contacto.html">CONTACTO</a>
               </nav>
           
              
@@ -38,49 +37,6 @@
 
 
       </div>
-
-
-<!--Reproductor de música -->
- <div id="reproductor" >
-        <!-- Webamp will attempt to center itself within this div -->
-    </div>
-
-
-
-  <script src="../js/webamp.bundle.js"></script>
-    <script>
-        const Webamp = window.Webamp;
-        new Webamp({
-           availableSkins:[
-            {url: "./skins/Green-Dimension-V2.wsz", name:"Green Dimension V2" },
-            {url: "./skins/AmigaPPC-dark.wsz", name:"AmigaPPC dark" },
-            {url: "./skins/base-2.91.wsz", name:"base 2.91" },
-            {url: "./skins/base-2.91-png.wsz", name:"base 2.91 png" },
-            {url: "./skins/Internet-Archive.wsz", name:"Internet Archive" },
-            {url: "./skins/MacOSXAqua1-5.wsz", name:"MacOSXAqua1-5" },
-            {url: "./skins/Skinner_Atlas.wsz", name:"Skinner Atlas" },
-            {url: "./skins/Sonic_Attitude.wsz", name:"Sonic Attitude" },
-            {url: "./skins/TopazAmp1-2.wsz", name:"TopazAmp 1.2" },
-            {url: "./skins/Vizor1-01.wsz", name:"Vizor 1.01" },
-            {url: "./skins/XMMS-Turquoise.wsz", name:"XMMS Turquoise" },
-            {url: "./skins/ZaxonRemake1-0.wsz", name:"ZaxonRemake 1.0" },
-            ],
-
-           initialTracks:[
-           {url: "./musica/atletico.mp3"},
-           {url: "./musica/barcelona.mp3"},
-           {url: "./musica/sevilla.mp3"}
-          
-           ],
-
-            initialSkin: 
-            {url: "./skins/TopazAmp1-2.wsz"}
-             
-          
-        }).renderWhenReady(document.getElementById('reproductor'));
-     
-    </script>
-
 
 
 <table class="tabla" cellspacing="0" cellpadding="20" width="100%" frame="box">
@@ -299,6 +255,11 @@
   </tbody>
 </table>
 
+      <div class="botonarriba"> 
+            <a href="#top"><img alt ="arriba" src="../imagenes/botonarriba.png" width="100px" height="100px" /> </a>
+            <a href="#top"><p>Subir</p></a>
+      </div>
+
 <footer>
            
               <div class="pie">
@@ -319,11 +280,11 @@
   
 
 
+     
 
-</div>
 
- 
-
+</div> 
+      
 </body>
 
 </html>
