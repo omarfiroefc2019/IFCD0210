@@ -1,0 +1,584 @@
+* {
+
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-decoration: none;
+	margin: 0;
+	box-sizing: border-box;
+	/*font-size: 18px;*/
+}
+
+body{ 
+  text-align: center;
+  background-image: url("../imagenes/background.jpg");
+
+}
+
+
+/*--------- ACCESIBILIDAD ---------*/
+
+#barraaccesibilidad{
+  background-color: #D6D6D6;
+  border: solid 4px black;
+  box-shadow: 15px 15px 20px;
+  
+}
+
+
+#accesibilidad {
+  background-color: #D6D6D6;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 70%;
+  padding: 4px;
+  
+}
+  
+#buscador{
+  background-color: #D6D6D6;
+  border-left: solid 4px black;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 4px;
+  padding-bottom: 10px;
+  width: 24%;
+ 
+  
+}
+
+#buscador input{
+
+  
+}
+
+
+
+/* ------------------------------- */
+
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+	box-sizing: border-box;
+  padding: 20px;
+
+
+}
+
+
+.botonarriba{
+  display: inline-block;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+  margin-top: 10px;
+}
+
+.botonarriba a p{
+  background-color: #A2A0A0;
+  border: solid 4px black;
+  padding: 5px;
+  width: 140px;
+  height: 50px;
+  border-radius: 20px;
+  padding-top: 12px;
+  color: black;
+}
+
+
+.botonarriba:hover{
+  transition: all 1.2s ease;
+  filter: brightness(70%);
+  
+
+}
+
+
+/* -------- HEADER --------*/ 
+
+header {
+    background-image: url("../imagenes/barramenu.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 4px solid black;	
+    width:100%;
+    height:70px;
+    padding-right:30px;
+	  padding-left:30px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  	box-shadow: 15px 15px 20px;
+
+}
+
+header nav {     
+    margin:12px;	
+    display: flex;
+        
+}
+
+header nav a{   
+    color:white;
+    text-align:center;
+    padding:8px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+header nav a:hover{
+  background-color: #4DBD33;
+	border-radius: 8px;
+    
+ } 
+
+
+header .logo{
+
+  margin: 12px;
+  margin-bottom: 90px;
+
+
+}
+
+
+.banner{
+	background-image: url("../imagenes/banner1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 250px;
+	border: 4px solid black;
+	width:100%;
+	margin-bottom:20px;
+	box-shadow: 15px 15px 20px;
+}
+
+
+
+h2{
+	font-size:22px;
+
+}
+
+/* -------- FOOTER --------*/ 
+
+footer {
+    margin-top: 30px;
+    background-image: url("../imagenes/bgfooter.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 4px solid black;  
+    width:100%;
+    height:150px;
+    padding-right:30px;
+    padding-left:30px;
+    display: flex;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 15px 15px;
+  
+
+}
+footer .pie h4{
+  color: white;
+  text-align: center;
+  
+}
+
+footer nav {
+    text-align: center;
+    margin:12px;  
+    display: flex;
+    
+    
+}
+
+footer nav img{
+    padding:8px;
+    height: 65px;
+    width: 65px;
+
+}
+
+footer nav img:hover{
+      
+    filter: brightness(120%);
+
+}
+
+
+
+/* --------PAG. ESTADIOS --------- */
+
+
+.tabla{
+	margin: 0 auto;
+	width:100%;
+	border: solid 4px black;
+	box-shadow: 15px 15px 20px;
+}
+
+table.tabla td:nth-child(1) img {
+  width: 93px;
+  height: 100px;
+  margin: 3px;
+}
+
+table.tabla td:nth-child(1), table.tabla td:nth-child(3) {
+    text-align: center;
+}
+
+table.tabla td:nth-child(3) img {
+  width: 300px;
+  height: 180px;
+  margin: 3px;
+  border: solid 3px black;
+  box-shadow: 10px 15px 15px; 
+  border-radius: 20px;
+
+}
+
+table.tabla td:nth-child(3) img:hover {
+ 
+	transition: all 1.7s ease;
+	transform:scale(1.6);
+	border: solid 3px #4DBD33;
+
+}
+
+
+table.tabla img:hover {
+  filter: brightness(80%);
+
+}
+
+table.tabla td:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+table.tabla td:nth-child(4) {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+table.tabla td:nth-child(5) {
+  font-size: 14px;
+  font-weight: 600;
+ font-family: 'PT Sans Narrow', sans-serif;
+}
+
+table.tabla td:nth-child(6) {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+table.tabla td a:nth-child(4) {
+  color: #ec1c2d;
+}
+
+table.tabla td a {
+  font-weight: 500;
+}
+
+table.tabla td a:first-child {
+  color: #15315a;
+  font-weight:700;
+}
+
+table.tabla thead tr td{
+  background: #3E3D3D;
+  color: white;
+
+}
+table.tabla thead tr td h3{
+  background: #3E3D3D;
+  color: white
+}
+
+table.tabla tr:nth-child(even) {
+  background: #D6D6D6;
+}
+
+table.tabla tr:nth-child(odd) {
+  background: white;
+
+}
+
+
+col.estadio {
+  width: 18%;
+
+}
+
+col.equipo {
+  width: 18%;
+}
+
+
+col.imagen2 {
+  width: 35%;
+
+}
+
+col.capacidad{
+  width: 15%;
+}
+col.direccion{
+  width: 40%;
+}
+
+
+col.fundacion{
+  width: 15%;
+}
+
+
+
+h4 .pie {
+	padding: 0 ;
+	text-align: center;
+	color:white;
+	
+
+}
+
+
+
+
+
+/* ---------PAG. INICIO ----------*/
+
+
+.bienvenido{
+  background-image: url("../imagenes/soccerfield.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 650px;
+  border: 4px solid black;
+  width:80%;
+
+  margin-bottom:20px;
+  box-shadow: 15px 15px 20px;
+  margin: 0 auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.bienvenido p{
+
+  text-align: center;
+  vertical-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+  -webkit-text-stroke: .5px white;
+  color: black;
+}
+
+.bienvenido h1{
+font-size: 80px;
+padding-top:110px;
+font-weight: bold;
+
+-webkit-text-stroke: 1px white;
+  color: black;
+}
+
+/* -------- PAG. CONTACTO --------*/ 
+
+
+#contact {
+  background: #4DBD33;
+  padding: 25px;
+  margin: 60px 0;
+  box-shadow: 15px 15px 20px;
+  border: solid 4px black;
+  padding-bottom: 20px;
+  border-radius: 20px;
+
+
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+fieldset label p{
+  float:left;
+
+
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+  padding: 5px;
+
+}
+
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 12px;
+  
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+  transition: border-color 0.3s ease;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 200px;
+  max-width: 100%;
+  resize: none;
+
+
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 30%;
+  background-color: #000000;
+  border: none;
+  color: white;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  
+}
+
+#contact button[type="submit"]:hover {
+  
+  transition: background-color 0.3s ease;
+   background-color: #464242;
+}
+
+
+
+.contenedorformulario {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+
+
+}
+
+.fondo_form{
+  
+  background-color: white;
+  box-shadow: 15px 15px 20px;
+  border: solid 4px black;
+  background-image: url("../imagenes/bgform.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+
+}
+
+
+/* -------- PAG. MULTIMEDIA --------- */
+
+#reproductor{
+
+  padding-bottom: 24.3%;
+  margin-right: 78% ;
+
+}
+
+.contenedor_multimedia{
+  box-shadow: 15px 15px 20px;
+  border: solid 4px black;
+  height: 700px;
+  background-image: url("../imagenes/bggaleria.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: black;
+  padding: 40px;
+  padding-bottom: 30px;
+
+}
+
+
+
+.videoteca {
+
+  color: white;
+  padding: 10px;
+  padding-bottom: 30px;
+
+}
+
+
+.videoteca h2{
+  
+  font-size: 30px;
+}
+
+.videoteca iframe{
+border: solid 2px #CEC5C5;
+color: white;
+margin: 10px;
+
+
+}
+
+  
+
+.videoteca iframe p{
+
+  color: white;
+}
+
+.podcast{
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 100%;
+  
+  padding-top: 20px;
+  box-shadow: 15px 15px 20px;
+  border: solid 4px black;
+}
+
+.podcast p {
+  
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+
+
+.podcast iframe{
+  box-shadow: 15px 15px 20px;
+  margin-bottom: 30px;
+}
